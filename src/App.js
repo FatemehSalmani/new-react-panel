@@ -1,12 +1,13 @@
 import React from 'react';
-import './App.css';
 import NavBar from './components/navbar';
+import SideBar from '/components/sidebar';
 
 function App() {
   return (
-    <div className="App">
+    <React.Fragment>
       <NavBar />
-    </div>
+      <SideBar />
+    </React.Fragment>
   );
 }
 

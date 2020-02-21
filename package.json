@@ -13,7 +13,7 @@
     "react-dom": "^16.12.0",
     "react-scripts": "3.4.0"
   },
-  "homepage": "https://faslm.github.io/new-react-panel",
+  "homepage": "https://faslm.github.io/new-react-panel/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
