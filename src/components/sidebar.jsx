@@ -1,14 +1,12 @@
 import { Nav, NavItem} from 'react-bootstrap';
- 
 import React from 'react';
- 
 import Sidebar from 'react-bootstrap-sidebar';
 
 function sidebar() {
   return (
     
     <div>
-    <Sidebar side='left' isVisible={ this.state.isVisible } >
+    <Sidebar side='left' isVisible='true' >
       <Nav>
         <NavItem href="#">Link 1</NavItem>
         <NavItem href="#">Link 2</NavItem>
