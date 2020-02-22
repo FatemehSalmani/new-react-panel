@@ -1,8 +1,7 @@
 import React from "react";
-import { BrowserRouter , Route } from "react-router-dom"
+import { BrowserRouter , Route , Switch } from "react-router-dom"
 import routes from './routes';
-import NavBar from'./components/navbar';
-import SideBar from './components/sidebar';
+import Template from './components/Template';
 import 'bootstrap/dist/css/bootstrap.css';
 
 
@@ -10,11 +9,16 @@ function App() {
   return (
     
     <BrowserRouter>
-     <NavBar/>
-    <SideBar />
+    
+     <Template>
+     <Switch>
     {routes.map((route) => (
       <Route {...route} />
     ))}
+     </Switch>
+    </Template>
+     
+   
     </BrowserRouter>
   );
 }
