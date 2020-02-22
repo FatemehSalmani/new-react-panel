@@ -6,13 +6,13 @@ function Template({ children }) {
       
    <div class="container">
         <NavBar/>
-        
+        <SideBar/>
         <div class="row">
     <div id="content" class="d-inline m-lg-2 col-lg-8 col-md-9 col-sm-6 col-xs-12">
                 {children}
      </div>
     </div>
-      <SideBar/>
+     
   </div>
     
   )
