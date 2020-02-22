@@ -20,6 +20,7 @@ const routes = [
     component: Articles,
   },
   {
+    path:"*",
     component: NotFound,
   },
 ]
