@@ -1,14 +1,21 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.css';
-import NavBar from './components/navbar';
+import React from "react";
+import { BrowserRouter , Route } from "react-router-dom"
+import routes from './routes';
+import NavBar from'./components/navbar';
 import SideBar from './components/sidebar';
+import 'bootstrap/dist/css/bootstrap.css';
+
 
 function App() {
   return (
-    <React.Fragment>
-      <NavBar />
-      <SideBar />
-    </React.Fragment>
+    
+    <BrowserRouter>
+     <NavBar/>
+    <SideBar />
+    {routes.map((route) => (
+      <Route {...route} />
+    ))}
+    </BrowserRouter>
   );
 }
 
