@@ -11,6 +11,10 @@ const routes = [
     component: HomePage,
   },
   {
+    path:"/new-react-panel",
+    component: HomePage,
+  },
+  {
     path: "/about-us",
     component: AboutUs,
   },

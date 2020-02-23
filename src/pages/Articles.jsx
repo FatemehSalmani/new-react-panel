@@ -4,7 +4,7 @@ function Articles(props) {
   return (
     <>
     
-    <p className="text-center w-100 pt-5 mt-5">here is Articles page</p>
+    <h2 className="text-center w-100 pt-5 mt-5">Articles</h2>
   
     </>
   )

@@ -1,49 +1,20 @@
 import React from 'react';
-import {
-  Collapse,
-  Navbar,
-  NavbarBrand,
-  Nav,
-  NavItem,
-} from "reactstrap"
+import {Navbar,NavbarBrand,Nav} from 'react-bootstrap';
 import {NavLink , withRouter} from "react-router-dom";
 
-
-function navbar(location) {
+function navbar(props) {
   return (
-    <Navbar color="light" light expand="md">
-       <NavbarBrand href="/">new react panel</NavbarBrand>
-       <Collapse isOpen={true} navbar>
-        <Nav className="ml-auto" navbar>
-       <NavItem>
-            <NavLink exact to="/" className="nav-link" activeClassName="active">
-              Home
-            </NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink
-              exact
-              to="/articles"
-              className="nav-link"
-              activeClassName="active"
-            >
-              Articles
-            </NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink
-              exact
-              to="/about-us"
-              className="nav-link"
-              activeClassName="active"
-            >
-            About Us
-            </NavLink>
-          </NavItem>
-          </Nav>
-          </Collapse>
-      </Navbar>
-    
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <NavbarBrand href="/" >New React Panel</NavbarBrand>
+    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+    <Navbar.Collapse id="responsive-navbar-nav">
+      <Nav className="mr-auto">
+        <NavLink exact to="/" className="nav-link" activeClassName="active">Home</NavLink>
+        <NavLink exact to="/articles" className="nav-link" activeClassName="active">Articles</NavLink>
+        <NavLink exact to="/about-us" className="nav-link" activeClassName="active">About Us</NavLink>
+      </Nav>
+    </Navbar.Collapse>
+  </Navbar>
   );
 }
 

@@ -5,7 +5,7 @@ function HomePage(props) {
     <>
    
    
-    <p className="text-center w-100 pt-5 mt-5">here is home page</p>
+    <h2 className="text-center w-100 pt-5 mt-5">Home</h2>
     
     </>
   )
