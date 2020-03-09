@@ -8,9 +8,6 @@ import Template from './components/Template';
 
 function App() {
   return (
-    
-    <BrowserRouter>
-    
      <Template>
      <Switch>
     {routes.map((route) => (
@@ -18,9 +15,6 @@ function App() {
     ))}
      </Switch>
     </Template>
-     
-   
-    </BrowserRouter>
   );
 }
 
