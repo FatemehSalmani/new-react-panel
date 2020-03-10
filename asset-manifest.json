@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/new-react-panel/static/css/main.8099240f.chunk.css",
+    "main.css": "/new-react-panel/static/css/main.cdcc70c1.chunk.css",
     "main.js": "/new-react-panel/static/js/main.4636094f.chunk.js",
     "main.js.map": "/new-react-panel/static/js/main.4636094f.chunk.js.map",
     "runtime-main.js": "/new-react-panel/static/js/runtime-main.d11b1c94.js",
@@ -9,17 +9,17 @@
     "static/js/2.611c361c.chunk.js": "/new-react-panel/static/js/2.611c361c.chunk.js",
     "static/js/2.611c361c.chunk.js.map": "/new-react-panel/static/js/2.611c361c.chunk.js.map",
     "index.html": "/new-react-panel/index.html",
-    "precache-manifest.0a5a6cf0a0ea14b0998887d872d3d6c5.js": "/new-react-panel/precache-manifest.0a5a6cf0a0ea14b0998887d872d3d6c5.js",
+    "precache-manifest.218a79e100366b250b222ff36f6d7712.js": "/new-react-panel/precache-manifest.218a79e100366b250b222ff36f6d7712.js",
     "service-worker.js": "/new-react-panel/service-worker.js",
     "static/css/2.67123b20.chunk.css.map": "/new-react-panel/static/css/2.67123b20.chunk.css.map",
-    "static/css/main.8099240f.chunk.css.map": "/new-react-panel/static/css/main.8099240f.chunk.css.map",
+    "static/css/main.cdcc70c1.chunk.css.map": "/new-react-panel/static/css/main.cdcc70c1.chunk.css.map",
     "static/js/2.611c361c.chunk.js.LICENSE.txt": "/new-react-panel/static/js/2.611c361c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d11b1c94.js",
     "static/css/2.67123b20.chunk.css",
     "static/js/2.611c361c.chunk.js",
-    "static/css/main.8099240f.chunk.css",
+    "static/css/main.cdcc70c1.chunk.css",
     "static/js/main.4636094f.chunk.js"
   ]
 }
