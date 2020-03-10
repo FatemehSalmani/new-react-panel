@@ -1,9 +1,11 @@
 import React from 'react';
+import "./componentStyles.css"
 import {Navbar,NavbarBrand,Nav} from 'react-bootstrap';
 import {NavLink , withRouter} from "react-router-dom";
 
 function navbar(props) {
   return (
+
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
     <NavbarBrand href="/" >New React Panel</NavbarBrand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -15,6 +17,7 @@ function navbar(props) {
       </Nav>
     </Navbar.Collapse>
   </Navbar>
+ 
   );
 }
 

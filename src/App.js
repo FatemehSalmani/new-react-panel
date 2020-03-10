@@ -3,20 +3,20 @@ import {HashRouter ,  Route , Switch } from "react-router-dom";
 
 import 'bootstrap/dist/css/bootstrap.css';
 import routes from './routes';
-import Template from './components/Template';
+import DefaultLayout from './components/DefaultLayout';
 
 
 
 function App() {
   return (
     <HashRouter basename="/new-react-panel">
-     <Template>
+     <DefaultLayout>
      <Switch>
     {routes.map((route) => (
       <Route {...route} />
     ))}
      </Switch>
-    </Template>
+    </DefaultLayout>
     </HashRouter>
   );
 }

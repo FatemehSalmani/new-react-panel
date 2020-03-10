@@ -1,11 +1,11 @@
 import React from "react"
 
-const Sidebar = () => {
+const Footer = () => {
     return(
         <React.Fragment>
-             <h3>Sidebar</h3>
+             <h3>Footer</h3>
         </React.Fragment>
            
     )
 }
-export default Sidebar
+export default Footer
