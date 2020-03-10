@@ -9,7 +9,7 @@ function Template({ children }) {
      <div class="container ">
      <NavBar/> 
      <div class="row">
-           <div class="leftcolumn" style="text-align:center">
+           <div class="leftcolumn">
            {children} 
            </div>   
            <div class="rightcolumn">
